@@ -16,6 +16,10 @@ main{
     width: 90%;
     position: relative;
     left: 5%;
+    padding: 15px;
+}
+#img {
+    text-align: center;
 }
 #image{
     display: inline-block;
@@ -24,4 +28,32 @@ main{
     border-left: 10px solid red ;
     border-radius: 5px;
     margin: 0 auto;
+    
+}
+#history h3 {
+    text-align: center;
+}
+ul{
+    position: relative;
+    list-style: none;
+    left:10% ;
+}
+
+ul li {
+    padding:0.7rem
+}
+
+#history div {
+    margin: 0 20%;
+    display: inline-block;
+    width: 60%;
+    height: 20%;
+    background-color: #DFDDDD;
+    padding: 20px;
+}
+footer{
+    margin: 0;
+    padding: 1% 0;
+    text-align: center;
+    background-color: yellow;
 }
